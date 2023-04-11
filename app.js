@@ -23,3 +23,13 @@ enterButton.addEventListener("click", function () {
   result.classList.add("greenTextWithBorder");
   result.textContent = resultValue;
 });
+
+// another way using alert and prompt
+// const age = prompt("Enter your age");
+// if (age >= 0 && age < 15) {
+//   alert("You are a Child!");
+// } else if (age >= 15 && age < 25) {
+//   alert("You are a Teenager!");
+// } else {
+//   alert("You are an Adult!");
+// }
