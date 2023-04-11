@@ -17,8 +17,10 @@ enterButton.addEventListener("click", function () {
     resultValue = " You are a Child!";
   } else if (age >= 15 && age < 25) {
     resultValue = "You are a Teenager!";
-  } else {
+  } else if (age >= 25) {
     resultValue = "You are an Adult!";
+  } else {
+    resultValue = "Invalid Age!";
   }
   result.classList.add("greenTextWithBorder");
   result.textContent = resultValue;
@@ -30,6 +32,9 @@ enterButton.addEventListener("click", function () {
 //   alert("You are a Child!");
 // } else if (age >= 15 && age < 25) {
 //   alert("You are a Teenager!");
-// } else {
+// } else if(age >=25) {
 //   alert("You are an Adult!");
-// }
+// } else{
+//   alert("Invalid Age!");
+//}
+//
