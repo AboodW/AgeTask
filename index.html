@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="title"><h1>Enter Your Age</h1></div>
+    <div class="container">
+      <div class="title"><h1>Enter Your Age</h1></div>
 
-    <div class="mainSec">
-      <input type="text" name="Age" id="ageField" />
-    </div>
+      <div class="mainSec">
+        <input type="number" name="Age" id="ageField" />
+      </div>
 
-    <div class="buttonBanner">
-      <button class="enterButton" id="enterButton">Enter</button>
+      <div class="buttonBanner">
+        <button class="enterButton" id="enterButton">Enter</button>
+      </div>
+
+      <div class="result" id="result">
+        <p class="resultText" id="resultText"></p>
+      </div>
     </div>
 
     <script src="./app.js"></script>
